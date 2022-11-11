@@ -3,3 +3,4 @@ A metronome especially designed so that you can practice your instruments anywhe
 This application is made using HTML , CSS and JAVASCRIPT.
 
 P.S: The 'Tick-Tock' sound is basically me snapping my tongue and then adding tonns of reverb. 😂😂 
+Test - https://freemetronome.netlify.app/
