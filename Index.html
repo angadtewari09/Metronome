@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metronome</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <iframe class="hide" src="tick.mp3" allow="autoplay"></iframe>
+    <iframe class="hide" src="tock.mp3" allow="autoplay"></iframe>
+
+    <div class ="container">
+        <div class="metronome">
+            <div class="beatdisplay">
+                <span class="counter">120</span>
+                <span class="bpm">BPM</span>
+            </div>
+            <div class="text">Plug and Play</div>
+            <div class="tempo-settings">
+                <div class="tempo-tuner minus">-</div>
+                <input type="range" min="40" max="200" step="1" class="slider">
+                <div class="tempo-tuner plus">+</div>
+            </div>
+            <div class="start">START</div>
+            <div class="beat-button">
+                <div class="minus-beat button">-</div>
+                <div class="measure-beat">4</div>
+                <div class="plus-beat button">+</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="Script.js"></script>
+</html>
